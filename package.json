@@ -1,0 +1,28 @@
+{
+  "name": "bolsonaro-goat",
+  "version": "2.0.0",
+  "description": "Bolsonaro Goat — Discord bot moderno (Components V2) · Moderação · Admin · Música YouTube 24/7",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["discord", "bot", "components-v2", "music", "moderation", "bolsonaro"],
+  "author": "paneer",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.19.0",
+    "distube": "^5.0.2",
+    "@distube/youtube": "^1.0.4",
+    "@distube/ytdl-core": "^4.16.0",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.15",
+    "dotenv": "^16.4.7",
+    "opusscript": "^0.0.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
